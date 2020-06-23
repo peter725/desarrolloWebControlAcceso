@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#form_home {
+	font-size:13px;
+	font-weight:bold;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:#EDEDED;
+	padding:10px;
+	border:#CCCCCC 1px solid;
+	margin:80px auto;
+	width:240px;
+	height:100px;
+
+	
+}
+ #form_home label{
+	 width:80px;
+	 float:left;
+	 text-align:right;
+	 margin-right:6px;
+	 color:#333;
+	 padding-top:7px;
+ }
+ #form_home input{
+float:left;/* Importante, para la alineación */
+	width:140px; height:18px;/* Medidas del Input */
+	 padding:2px;
+	color: #1778B1;
+	font-size:13px;
+	display:block;
+	margin: 0 0 5px 0;
+
+
+
+	
+}
+#form_home .b_inicio{
+	background:#333;
+	color:#FFF;
+	height:20px;
+	font-size:13px;
+	width:70px;
+	border:none;
+	margin-left:85px;
+}
+
+#form_home .b_inicio:hover, #form_general .b_enviar:hover {
+	background:#666;
+}
+ 
+ #form_home .olvide, #form_home .olvide a:link, #form_home .olvide a:visited{
+	font-size:10px;
+	text-align:left !important;
+	width:150px;
+	text-decoration:none;
+	font-weight:normal;
+	margin-left:5px;
+
+	
+}
+
+#form_home .olvide a:hover{
+	text-decoration:underline;
+}
+
+.rojo{
+	float: left;
+	color:#F00;	
+	width: 100%;
+	font-size: 9px;
+	text-align: center;
+}
+
